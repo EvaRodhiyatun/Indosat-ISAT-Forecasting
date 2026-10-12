@@ -15,12 +15,21 @@ Diperlukan model machine learning yang mampu mempelajari pola dan hubungan non-l
 ## Dataset
 Dataset terdiri dari 1201 baris dan 2 kolom yaitu, kolom Tanggal dan kolom Terakhir (harga penutupan). Dataset yang digunakan dari periode 13 November 2020 - 13 November 2025.
 ## Hasil
-===== EVALUASI MODEL MLP =====
+### Evaluasi Model MLP
+| Metrik | Nilai |
+|---|---|
+| MSE | 0,0053 |
+| RMSE | 0,0727 |
+| MAE | 0,0514 |
+| MAPE | 2,63% |
+### Prediksi 30 hari ke depan
+Prediksi dilakukan secara iteratif: jendela 5 harga terakhir dipakai sebagai input, hasil prediksi ditambahkan ke jendela, lalu data tertua dibuang, dan seterusnya.
 
-MSE   : 0.005281858421993757
+| Tanggal | Prediksi |
+|---|---|
+| 14 Nov 2025 | 2,137 |
+| 24 Nov 2025 | 2,189 |
+| 3 Des 2025 | 2,252 |
+| 13 Des 2025 | 2,342 |
 
-RMSE  : 0.07267639521876244
-
-MAE   : 0.05135868944165199
-
-MAPE  : 0.02634054326939292
+Harga diprediksi naik bertahap dan konsisten sepanjang 30 hari.
