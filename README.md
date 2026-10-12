@@ -15,4 +15,12 @@ Diperlukan model machine learning yang mampu mempelajari pola dan hubungan non-l
 ## Dataset
 Dataset terdiri dari 1201 baris dan 2 kolom yaitu, kolom Tanggal dan kolom Terakhir (harga penutupan). Dataset yang digunakan dari periode 13 November 2020 - 13 November 2025.
 ## Hasil
+===== EVALUASI MODEL MLP =====
 
+MSE   : 0.005281858421993757
+
+RMSE  : 0.07267639521876244
+
+MAE   : 0.05135868944165199
+
+MAPE  : 0.02634054326939292
