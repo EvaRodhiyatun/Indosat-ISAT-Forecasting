@@ -15,3 +15,4 @@ Diperlukan model machine learning yang mampu mempelajari pola dan hubungan non-l
 ## Dataset
 Dataset terdiri dari 1201 baris dan 2 kolom yaitu, kolom Tanggal dan kolom Terakhir (harga penutupan). Dataset yang digunakan dari periode 13 November 2020 - 13 November 2025.
 ## Hasil
+
