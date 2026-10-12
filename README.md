@@ -12,3 +12,6 @@ Diperlukan model machine learning yang mampu mempelajari pola dan hubungan non-l
 1. Membangun dan melatih model MLP Regressor dari data historis yang dinormalisasi dan disiapkan dengan metode sliding window.
 2. Menyediakan prediksi harga ISAT untuk 30 hari ke depan sebagai panduan investasi jangka pendek.
 3. Mengidentifikasi tren yang paling mungkin terjadi pada periode tersebut (naik, turun, atau sideways).
+## Dataset
+Dataset terdiri dari 1201 baris dan 2 kolom yaitu, kolom Tanggal dan kolom Terakhir (harga penutupan). Dataset yang digunakan dari periode 13 November 2020 - 13 November 2025.
+## Hasil
