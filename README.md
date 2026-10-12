@@ -33,3 +33,9 @@ Prediksi dilakukan secara iteratif: jendela 5 harga terakhir dipakai sebagai inp
 | 13 Des 2025 | 2,342 |
 
 Harga diprediksi naik bertahap dan konsisten sepanjang 30 hari.
+## Kesimpulan
+
+- Model MLP berhasil dibangun dan mampu mempelajari pola harga ISAT periode 2020–2025.
+- Performa pada data testing baik, dengan MAPE 2,63% (di bawah 10%), sehingga rata-rata kesalahan prediksi relatif kecil.
+- Prediksi 30 hari ke depan menunjukkan **tren naik** dari 2,137 menjadi 2,342.
+- Model dapat menjadi alat bantu keputusan investasi jangka pendek, tetapi hasilnya tetap perlu dipertimbangkan bersama analisis pasar yang lebih luas.
